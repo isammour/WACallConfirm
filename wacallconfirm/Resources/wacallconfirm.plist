@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>WA Call Confirm</string>
+			<key>footerText</key>
+			<string>WA Call Confirm © 2015 Ibrahim Sammour</string>
+
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.sammour.callconfirm.preferences-changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.sammour.callconfirm</string>
+			<key>key</key>
+			<string>tapConfirmation</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>default</key>
+			<false/>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on twitter</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WACallConfirm</string>
+</dict>
+</plist>

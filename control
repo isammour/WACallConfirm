@@ -1,0 +1,10 @@
+Package: com.sammour.callConfirm
+Name: WACallConfirm
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Ibrahim Sammour
+Author: Ibrahim Sammour
+Section: Tweaks
+Version: 1.1
+Installed-Size: 232
